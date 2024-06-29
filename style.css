@@ -242,3 +242,66 @@ main {
     transform: scale(1.2);
     transition: 1s;
 }
+
+/* ------------------------------------------------------------------------------
+======================= {End-Main-section} ================================= */
+
+/* ------------------------------------------------------------------------------
+======================= {Start-Footer-section} ================================= */
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(25, 25, 25, .9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-menu {
+    float: left;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding: 0 50px 0px 0;
+}
+
+.footer-menu li a {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.footer-menu li a:hover {
+    color: #F9B500;
+}
+
+.footer-social-network{
+    list-style: none;
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-social-network li {
+    padding: 0 50px 0 0;
+    display: inline-block;
+}
+
+.footer-social-network li a {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.footer-social-network li a:hover {
+    color: #F9B500;
+}
