@@ -1,0 +1,265 @@
+/* Small devices (landscape phones, 576px and down) */
+@media (min-width: 576px) {
+    main {
+        height: calc(100vh - 7.5vh);
+    }
+
+    .left-main-side {
+        height: calc(92.5vh / 2);
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    #login-title {
+        font-size: 3.7vw;
+        text-align: start;
+    }
+
+    #login-main-img {
+        width: 49%;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    .right-main-side {
+        height: calc(92.5vh / 2);
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .Login-card {
+        width: 85%;
+        flex-direction: row;
+        padding: 45px 0 45px 20px !important;
+    }
+
+    .login-card-body {
+        width: 60%;
+    }
+
+    .login-card-footer {
+        width: 35%;
+        padding-left: 5%;
+    }
+
+    .login-card-body form input {
+        font-size: 10pt;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    #forgot-pass-link {
+        font-size: x-small;
+    }
+
+    .login-btn {
+        padding: 13px 0px;
+        font-size: 10pt;
+    }
+
+    .sing-up-btn {
+        width: 85%;
+        padding: 10px 0px;
+        margin-bottom: 15px;
+    }
+
+    .login-card-footer span {
+        font-size: 10pt;
+        margin-bottom: 0 !important;
+        text-align: center;
+
+    }
+
+    .social-logos {
+        margin: 10px 0;
+    }
+
+    .social-logos img {
+        margin: 8px;
+    }
+
+    /* footer */
+
+    .footer-menu {
+        padding-left: 10px;
+    }
+
+    .footer-menu li {
+        padding: 0 10px 0px 0;
+    }
+
+    .footer-menu li a {
+        font-size: 4pt;
+    }
+
+    .footer-social-network li {
+        padding: 0 10px 0 0;
+    }
+
+    .footer-social-network li a {
+        font-size: 4pt;
+    }
+
+
+}
+
+
+/* Medium devices (tablets, 768px and down) */
+@media (min-width: 768px) {
+    header {
+        margin: 20px 0px 0 15px;
+    }
+
+    .back-btn {
+        font-size: large;
+        font-weight: 100;
+
+    }
+
+    .header-icon {
+        font-size: 15pt !important;
+    }
+
+
+    /* footer */
+
+    .footer-menu {
+        padding-left: 20px;
+    }
+
+    .footer-menu li {
+        padding: 0 15px 0px 0;
+    }
+
+    .footer-menu li a {
+        font-size: 7pt;
+    }
+
+    .footer-social-network li {
+        padding: 0 33px 0 0;
+    }
+
+    .footer-social-network li a {
+        font-size: 10pt;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    header {
+        margin: 23px 20px;
+    }
+
+    .back-btn {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    main {
+        flex-direction: row;
+        height: calc(100vh - 10.5vh)
+    }
+
+    .left-main-side {
+        width: 50vw;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #login-title {
+        color: #77ffc0;
+        font-size: 2.7vw;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #login-main-img {
+        width: 32vw;
+        height: auto;
+        margin: 0;
+    }
+
+    .right-main-side {
+        width: 50vw;
+        height: auto;
+    }
+
+    .Login-card {
+        padding: 30px 35px !important;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .login-card-body {
+        width: 100%;
+    }
+
+    .login-form-label {
+        font-size: large;
+    }
+
+    .login-card-body form input {
+        font-size: 12pt;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    #forgot-pass-link {
+    font-size: small;
+    }
+
+    .login-btn {
+        padding: 16px 0px;
+        border-radius: 8px;
+        font-size: 12pt;
+    }
+
+    .login-card-footer{
+        width: 100%;
+    }
+
+    .sing-up-btn {
+        width: 35%;
+        border-radius: 8px;
+        margin: 20px 0;
+        padding: 8px 0px;
+        font-size: medium;
+    }
+
+
+    .login-card-footer span {
+        font-size: 12pt;
+        margin: 10px 0 !important;
+    }
+
+
+    .social-logos img {
+        margin: 20px;
+    }
+
+    /* footer */
+    .footer-menu li {
+        padding: 0 50px 0px 0;
+    }
+
+    .footer-menu li a {
+        font-size: 8pt;
+    }
+
+    .footer-social-network li {
+        padding: 0 50px 0 0;
+    }
+
+    .footer-social-network li a {
+        font-size: 8pt;
+    }
+}
